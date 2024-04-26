@@ -5,6 +5,16 @@
     "Source Han Sans CN", sans-serif;
 }
 
+@font-face {
+    font-family: 'Haibara_DEMO';
+    src: url('fonts/HaibaraDEMO.eot');
+    src: url('fonts/HaibaraDEMO.eot?#iefix') format('embedded-opentype'),
+         url('fonts/HaibaraDEMO.woff2') format('woff2'),
+         url('fonts/HaibaraDEMO.woff') format('woff'),
+         url('fonts/HaibaraDEMO.ttf')  format('truetype'),
+         url('fonts/HaibaraDEMO.svg#Haibara_DEMO') format('svg');
+}
+
 .main-container {
   overflow: hidden;
 }

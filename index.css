@@ -15,11 +15,13 @@
          url('fonts/HaibaraDEMO.svg#Haibara_DEMO') format('svg');
 }
 
-body, html {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow-x: hidden; /* Evita el desbordamiento horizontal */
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
 }
 
 input,
@@ -31,9 +33,10 @@ button {
 
 .main-container {
   position: relative;
-  width: 100%;
-  max-width: 100%;
-  box-sizing: border-box;
+  width: 1920px;
+  height: 5417px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 .flex-row {
   position: relative;

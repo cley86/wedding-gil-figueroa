@@ -173,7 +173,9 @@ button {
   left: 7.92%;
   z-index: 54;
   -webkit-mask-image: url(./assets/images/28fde9d3-7ae9-4fd5-b41a-276d46f3f1a9.png);
+  mask-image: url(./assets/images/28fde9d3-7ae9-4fd5-b41a-276d46f3f1a9.png);
   -webkit-mask-size: cover;
+  mask-size: cover;
 }
 .group-2 {
   position: absolute;
@@ -1180,7 +1182,9 @@ button {
   left: 14.81%;
   z-index: 128;
   -webkit-mask-image: url(./assets/images/1e5cec66-6c4f-4ff7-afaa-f03823a686c3.png);
+  mask-image: url(./assets/images/1e5cec66-6c4f-4ff7-afaa-f03823a686c3.png);
   -webkit-mask-size: cover;
+  mask-size: cover;
 }
 .group-24 {
   position: absolute;
@@ -1209,7 +1213,9 @@ button {
   left: 39.3%;
   z-index: 132;
   -webkit-mask-image: url(./assets/images/52d6c6ad-3e8a-4f64-bdac-be346c5c9f10.png);
+  mask-image: url(./assets/images/52d6c6ad-3e8a-4f64-bdac-be346c5c9f10.png);
   -webkit-mask-size: cover;
+  mask-size: cover;
 }
 .group-27 {
   position: absolute;
@@ -1238,7 +1244,9 @@ button {
   left: 63.79%;
   z-index: 136;
   -webkit-mask-image: url(./assets/images/379f72c8-969c-438c-80bc-e479357edb17.png);
+  mask-image: url(./assets/images/379f72c8-969c-438c-80bc-e479357edb17.png);
   -webkit-mask-size: cover;
+  mask-size: cover;
 }
 .group-2a {
   position: absolute;

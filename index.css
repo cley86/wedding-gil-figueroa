@@ -1149,9 +1149,9 @@ button {
   height: 192px;
   color: #ffffff;
   font-family: Times New Roman, var(--default-font-family);
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 28px;
   text-align: center;
   text-transform: uppercase;
   z-index: 122;

@@ -15,13 +15,11 @@
          url('fonts/HaibaraDEMO.svg#Haibara_DEMO') format('svg');
 }
 
-.main-container {
-  overflow: hidden;
-}
-
-.main-container,
-.main-container * {
-  box-sizing: border-box;
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Evita el desbordamiento horizontal */
 }
 
 input,
@@ -33,10 +31,9 @@ button {
 
 .main-container {
   position: relative;
-  width: 1920px;
-  height: 5417px;
-  margin: 0 auto;
-  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 .flex-row {
   position: relative;
@@ -61,7 +58,7 @@ button {
   margin: 0 0 0 0;
   background: url(./assets/images/4f256b80-3ca7-484f-b787-b7758325080b.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 12;
 }
 .flex-column-eea {
@@ -130,7 +127,7 @@ button {
   left: 77.61%;
   background: url(./assets/images/af3f211a-fbc7-4474-af57-74869a440245.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 9;
 }
 .group-1 {
@@ -141,7 +138,7 @@ button {
   left: 0;
   background: url(./assets/images/a1ceae93-bcc6-4553-9a8e-03e740aa8c6e.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 11;
 }
 .rectangle {
@@ -151,7 +148,7 @@ button {
   margin: 0.23px 0 0 0;
   background: url(./assets/images/86e5b263-d700-4a31-b914-b0c92ad65968.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 15;
 }
 .oval {
@@ -162,7 +159,7 @@ button {
   left: 58.36%;
   background: url(./assets/images/ef085b04-b6e6-4899-b315-2659abf47e76.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 49;
 }
 .clip-path-group {
@@ -191,7 +188,7 @@ button {
   left: 0;
   background: url(./assets/images/26f90be4-6f63-470a-bb22-9c90b8ee3df4.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 56;
 }
 .flowers {
@@ -202,7 +199,7 @@ button {
   left: 11.38%;
   background: url(./assets/images/3b5b347d-bcf6-43fb-bd6c-c202f88cce74.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 50;
 }
 .flowers-4 {
@@ -213,7 +210,7 @@ button {
   left: 80.73%;
   background: url(./assets/images/2fb48d10-e1f0-4819-ad8a-2974daea872d.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 .con-la-bendicion-de-dios {
   display: flex;
@@ -410,7 +407,7 @@ button {
   left: 53.94%;
   background: url(./assets/images/66fbf149-ea21-4a7b-8c11-f2df1fe73db4.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 .nos-casamos {
   position: absolute;
@@ -420,7 +417,7 @@ button {
   left: 10.59%;
   background: url(./assets/images/98462bc4-8e6e-4148-9084-bd623e72cb8a.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 20;
 }
 .vector {
@@ -431,7 +428,7 @@ button {
   left: 7.81%;
   background: url(./assets/images/d2d08407-b9d6-445f-b10f-f21417778f6f.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 24;
 }
 .flex-row-c {
@@ -591,7 +588,7 @@ button {
   left: 84.9%;
   background: url(./assets/images/678e25ab-e977-4cde-94f6-5395ac9556e4.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 71;
 }
 .frame {
@@ -691,7 +688,7 @@ button {
   left: 0;
   background: url(./assets/images/02838b00-6fa4-4baa-8bad-da793b0851f6.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 72;
 }
 .flex-row-b {
@@ -709,7 +706,7 @@ button {
   left: 0;
   background: url(./assets/images/c94179c4-0dac-4fd9-b42f-342814d63228.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 75;
 }
 .frame-d {
@@ -874,7 +871,7 @@ button {
   left: 50%;
   background: url(./assets/images/20d90315-916d-41e8-8b1d-4aa89c2b0a77.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 87;
 }
 .vector-11 {
@@ -884,7 +881,7 @@ button {
   margin: 145.763px 0 0 352px;
   background: url(./assets/images/05e55102-8fe9-402a-8039-e277e3255bbc.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 91;
   overflow: visible auto;
 }
@@ -895,7 +892,7 @@ button {
   margin: 34.815px 0 0 226.647px;
   background: url(./assets/images/426100d8-74f5-4485-b7b9-26fd519355e3.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 93;
 }
 .flex-row-f {
@@ -915,7 +912,7 @@ button {
   height: 2.119px;
   background: url(./assets/images/c21d0bf7-f1d9-41a2-838a-15beded39e54.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 99;
 }
 .vector-14 {
@@ -925,7 +922,7 @@ button {
   height: 13.588px;
   background: url(./assets/images/f3335522-e06a-4814-9636-4b06df8e5104.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 111;
 }
 .vector-15 {
@@ -935,7 +932,7 @@ button {
   margin: -4.293px 0 0 166.292px;
   background: url(./assets/images/c145fe3a-39c6-47b9-9c8e-30a41dd66cef.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 97;
 }
 .vector-16 {
@@ -945,7 +942,7 @@ button {
   margin: 4.509px 0 0 211.071px;
   background: url(./assets/images/74bf3a4e-0382-45b2-8c2b-0e8528e4af3f.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 95;
 }
 .flex-row-da {
@@ -965,7 +962,7 @@ button {
   height: 9.083px;
   background: url(./assets/images/d336d1d7-a1b2-4f51-b129-8c42680fe113.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 115;
 }
 .vector-18 {
@@ -975,7 +972,7 @@ button {
   height: 5.535px;
   background: url(./assets/images/a75cf3dd-569f-40ff-b74a-349d3f8507d2.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 101;
 }
 .vector-19 {
@@ -985,7 +982,7 @@ button {
   margin: 12.642px 0 0 79.961px;
   background: url(./assets/images/6fa6dd16-7be5-49d0-a70d-2e1cf66e7a66.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 113;
 }
 .vector-1a {
@@ -995,7 +992,7 @@ button {
   margin: -2.602px 0 0 102.294px;
   background: url(./assets/images/bc802665-afeb-4f52-8cf9-7156eedad351.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 107;
 }
 .vector-1b {
@@ -1005,7 +1002,7 @@ button {
   margin: -5.648px 0 0 96.462px;
   background: url(./assets/images/ddfe80a2-14ed-40e6-a48b-cc3480d1d4ff.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 109;
 }
 .vector-1c {
@@ -1015,7 +1012,7 @@ button {
   margin: -4.412px 0 0 86.739px;
   background: url(./assets/images/132c8552-3513-491d-9111-ac09e6052703.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 105;
 }
 .vector-1d {
@@ -1025,7 +1022,7 @@ button {
   margin: 4.36px 0 0 100.395px;
   background: url(./assets/images/869af7ae-3cb1-42b4-8743-080256c21b02.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 103;
 }
 .frame-1e {
@@ -1169,7 +1166,7 @@ button {
   left: 0;
   background: url(./assets/images/f462c5b6-cd81-4893-8b6f-72aef2dc3b1f.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 140;
 }
 .clip-path-group-23 {
@@ -1198,7 +1195,7 @@ button {
   left: 0;
   background: url(./assets/images/2ec359cd-0a6b-4e95-a362-bada83f94812.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 130;
 }
 .clip-path-group-26 {
@@ -1227,7 +1224,7 @@ button {
   left: 0;
   background: url(./assets/images/c6a665f4-e603-450b-98f1-5fbd298878e4.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 134;
 }
 .clip-path-group-29 {
@@ -1256,7 +1253,7 @@ button {
   left: 0;
   background: url(./assets/images/7b7febac-d590-4d9f-8947-e4296e05bc71.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 138;
 }
 .line-2c {
@@ -1267,7 +1264,7 @@ button {
   left: 89.29%;
   background: url(./assets/images/bcb1a6b7-fa77-4d6a-bb2a-6b46e0937728.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 141;
 }
 .vector-2d {
@@ -1278,6 +1275,6 @@ button {
   left: 0;
   background: url(./assets/images/12171e30-5dd0-4210-bf43-5122404065be.png)
     no-repeat center;
-  background-size: 100% 100%;
+  background-size: cover;
   z-index: 126;
 }

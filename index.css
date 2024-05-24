@@ -42,7 +42,7 @@ button {
   position: relative;
   width: 1946.004px;
   height: 1089px;
-  margin: 0 0 0 -19.996px;
+  margin: 0 auto;
   z-index: 11;
 }
 .bk-white {
@@ -68,7 +68,7 @@ button {
   position: relative;
   width: 461px;
   height: 516.941px;
-  margin: 180.377px 0 0 729.877px;
+  margin: 0 auto;
   z-index: 6;
 }
 .gabriela {
@@ -122,6 +122,31 @@ button {
   white-space: nowrap;
   z-index: 6;
 }
+
+.verse {
+	position: relative;
+	width: 675px;
+	height: 633.941px;
+	padding-top: 200px;
+	margin: 0 auto; /* Centra horizontalmente el div dentro de su contenedor */
+	z-index: 6;
+	text-align: center; /* Centra el texto dentro del div */
+}
+
+.vrs {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	position: relative;
+	padding-top: 0px;
+	color: #000000;
+	font-family: Times New Roman, var(--default-font-family);
+	font-size: 18px;
+	line-height: 32px;
+	text-transform: uppercase;
+	z-index: 66;
+}
+
 .group {
   position: absolute;
   width: 22.39%;
@@ -1139,6 +1164,7 @@ button {
   white-space: nowrap;
   z-index: 121;
 }
+
 .gift-message {
   display: flex;
   align-items: flex-start;

@@ -46,13 +46,13 @@ button {
   z-index: 11;
 }
 .bk-white {
-  position: absolute;
-  width: 1920px;
-  height: 1089px;
-  top: 0;
-  left: 19.996px;
-  background: #ffffff;
-  z-index: 1;
+    position: absolute;
+    width: 1920px;
+    height: 1089px;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    left: auto;
 }
 .line {
   position: relative;
@@ -148,26 +148,26 @@ button {
 }
 
 .group {
-  position: absolute;
-  width: 22.39%;
-  height: 40.64%;
-  top: 7.94%;
-  left: 77.61%;
-  background: url(./assets/images/af3f211a-fbc7-4474-af57-74869a440245.png)
+    position: absolute;
+    width: 22.39%;
+    height: 40.64%;
+    top: 7.94%;
+    left: 76.5%;
+    background: url(./assets/images/af3f211a-fbc7-4474-af57-74869a440245.png)
     no-repeat center;
-  background-size: cover;
-  z-index: 9;
+    background-size: cover;
+    z-index: 9;
 }
 .group-1 {
-  position: absolute;
-  width: 19.9%;
-  height: 39.72%;
-  top: 54.16%;
-  left: 0;
-  background: url(./assets/images/a1ceae93-bcc6-4553-9a8e-03e740aa8c6e.png)
+    position: absolute;
+    width: 19.9%;
+    height: 39.72%;
+    top: 54.16%;
+    left: -10px;
+    background: url(./assets/images/a1ceae93-bcc6-4553-9a8e-03e740aa8c6e.png)
     no-repeat center;
-  background-size: cover;
-  z-index: 11;
+    background-size: cover;
+    z-index: 11;
 }
 .rectangle {
   position: relative;
